@@ -1,4 +1,12 @@
 public class player {
+    String firstName;
+    String lastName;
+    String sponsor;
+    int age;
+    int matchWins;
+    int matchLoss;
+    double winLossRatio;
+
     public player(String firstName, String lastName, int age, int matchWins, int matchLoss) {
         this.firstName = firstName;
         this.lastName = lastName;
@@ -8,19 +16,12 @@ public class player {
         this.winLossRatio = calcRatio();
     }
 
-    String firstName;
-    String lastName;
-    String sponsor;
-    int age;
-    int matchWins;
-    int matchLoss;
-    double winLossRatio;
-
     double calcRatio() {
         return matchWins / matchLoss;
     }
 
+    void printRatio() {
+        System.out.println("Win-loss ratio of " + firstName + " " + lastName + ": " + winLossRatio);
+    }
+
 }
-
-
-
