@@ -25,14 +25,20 @@ public class main {
         player Lisa = new player("Lisa", "Hawkings", 24, 2, 5);
         player Maria = new player("Maria", "Mitchells", 23, 4, 3);
 
+        John.printRatio();
+        Joe.printRatio();
         Lisa.printRatio();
+        Maria.printRatio();
 
-        System.out.println("Win-loss ratio of " + John.firstName + " " + John.lastName + ": " + John.winLossRatio);
+        team teamRed = new team("TeamEasy", John, Joe);
+        team teamBlue = new team("TeamHard", Lisa, Maria);
 
-        team team01 = new team("TeamEasy", John, Joe);
-        team team02 = new team("TeamHard", Lisa, Maria);
+        teamRed.printAvgAge();
+        teamBlue.printAvgAge();
 
-        System.out.println("Average age of " + team01.teamName + " is: " + team01.avgAge);
+        match match01 = new match("Qualifying match 1", teamRed, teamBlue);
+
+        match01.printMatchAvgAge();
 
     }
 
