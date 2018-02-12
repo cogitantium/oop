@@ -2,7 +2,6 @@ public class match {
     String matchName;
     team team01;
     team team02;
-    int nPlayers;
     double matchAvgAge;
 
     public match(String matchName, team team01, team team02) {
@@ -16,17 +15,7 @@ public class match {
         return (team01.avgAge + team02.avgAge) / 2;
     }
 
-    int calcMatchPlayers() {
-        return
-    }
-
     void printMatchAvgAge() {
         System.out.println(matchName + " average age of match participants is: " + matchAvgAge);
     }
-
-    Player findBestPerf() {
-
-    }
-
-
 }

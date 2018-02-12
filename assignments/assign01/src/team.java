@@ -12,7 +12,7 @@ public class team {
     }
 
     double calcAvgAge() {
-        return (player1.age + player2.age) / 2;
+        return (double) (player1.age + player2.age) / 2;
     }
 
     void printAvgAge() {

@@ -17,7 +17,8 @@ public class player {
     }
 
     double calcRatio() {
-        return matchWins / matchLoss;
+        //typecasting necessary
+        return (double) matchWins / matchLoss;
     }
 
     void printRatio() {
