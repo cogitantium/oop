@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7914ade2-1044-45c8-b22f-cd12b42fcb8a" name="Default" comment="fixed JUnit environment and implemented first test">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/playerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assign01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/assign01.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/assign01/player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/assign01/player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player.java" afterDir="false" />
-    </list>
+    <list default="true" id="7914ade2-1044-45c8-b22f-cd12b42fcb8a" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -65,7 +57,8 @@
       <file leaf-file-name="match.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/match.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="315">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="e#343#344#0" expanded="true" />
                 <element signature="e#401#402#0" expanded="true" />
@@ -291,8 +284,16 @@
       <workItem from="1518771327928" duration="302000" />
       <workItem from="1518772734419" duration="563000" />
       <workItem from="1518773328948" duration="93000" />
-      <workItem from="1518773454749" duration="3863000" />
+      <workItem from="1518773454749" duration="4042000" />
     </task>
+    <task id="LOCAL-00001" summary="fixed JUnit environment and implemented first test">
+      <created>1518783908448</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1518783908448</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -328,18 +329,18 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11332000" />
+    <option name="totallyTimeSpent" value="11511000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="26" width="1920" height="1054" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.32597265" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49791667" visible="true" weight="0.32597265" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50292826" side_tool="true" weight="0.32928678" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.50208336" side_tool="true" visible="true" weight="0.32597265" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49707174" weight="0.3270242" />
@@ -744,7 +745,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/match.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="e#343#344#0" expanded="true" />
             <element signature="e#401#402#0" expanded="true" />
